@@ -10,12 +10,12 @@ int main() {
     cout << "Enter the message: ";
     getline(cin, message);
 
-    transform(message.begin(), message.end(), message.begin(), ::toupper);
+  // transform(message.begin(), message.end(), message.begin(), ::toupper);
 
     cout << "Enter the key: ";
     getline(cin, key);
 
-    transform(key.begin(), key.end(), key.begin(), ::toupper);
+    //transform(key.begin(), key.end(), key.begin(), ::toupper);
 
     string extended_key = key;
     while (extended_key.length() < message.length()) {
